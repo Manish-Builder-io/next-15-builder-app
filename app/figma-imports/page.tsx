@@ -1,6 +1,7 @@
 import { builder } from "@builder.io/sdk";
 import { RenderBuilderContent } from "../../components/builder";
-
+import { AccessoryShop } from '../../components/accessoryShop/AccessoryShop';
+import { FormLayout } from '../../components/formComponents/FormLayout'; 
 // Builder Public API Key set in .env file
 builder.init(process.env.NEXT_PUBLIC_BUILDER_API_KEY!);
 
@@ -27,6 +28,7 @@ export default async function Page(props: PageProps) {
   return (
     <>
       {/* Render the Builder page */}
+      <FormLayout />
       <RenderBuilderContent content={content} model={builderModelName} />
     </>
   );

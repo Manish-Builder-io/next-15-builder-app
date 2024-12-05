@@ -1,0 +1,33 @@
+.container {
+  position: relative;
+  width: 573px;
+  max-width: 100%;
+  margin-bottom: 0px;
+}
+
+.accessory-title {
+  color: #fff;
+  font-size: 34px;
+  letter-spacing: 7.14px;
+}
+
+.accessory-button {
+  width: 100%;
+  min-height: 43px;
+  background-color: #fff;
+  color: #000;
+  font-size: 15px;
+  letter-spacing: 3.15px;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+@media (max-width: 991px) {
+  .container {
+    margin-bottom: 10px;
+  }
+
+  .accessory-title {
+    max-width: 100%;
+  }
+}

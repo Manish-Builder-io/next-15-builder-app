@@ -9,9 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@builder.io/dev-tools": "^1.1.27",
+    "@adobe/react-spectrum": "^3.38.0",
+    "@builder.io/dev-tools": "^1.1.41",
     "@builder.io/react": "^7.0.0",
     "@builder.io/sdk": "^3.0.7",
+    "@spectrum-icons/workflow": "^4.2.16",
     "next": "15.0.2",
     "react": "19.0.0-rc-02c0e824-20241028",
     "react-dom": "19.0.0-rc-02c0e824-20241028"

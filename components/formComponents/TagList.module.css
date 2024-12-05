@@ -1,0 +1,11 @@
+.tag {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #464646;
+  background: #fdfdfd;
+  color: #464646;
+  font: 400 12px Adobe Clean, -apple-system, Roboto, Helvetica, sans-serif;
+}

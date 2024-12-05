@@ -1,0 +1,9 @@
+.fieldLabel {
+  color: #464646;
+  font: 400 12px Adobe Clean, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.required {
+  color: #d83b01;
+  margin-left: 4px;
+}
