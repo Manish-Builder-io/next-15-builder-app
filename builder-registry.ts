@@ -4,6 +4,9 @@ import Counter from "./components/Counter/Counter";
 import CallOut from "./components/Callout";
 
 builder.canTrack = false;
+//window.builderNoTrack = false
+
+
 builder.init(process.env.NEXT_PUBLIC_BUILDER_API_KEY!);
 
 Builder.registerComponent(Counter, {

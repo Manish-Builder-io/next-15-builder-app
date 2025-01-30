@@ -25,6 +25,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script>
+          window.builderNoTrack = true;
+        </script>
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>

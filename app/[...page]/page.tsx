@@ -3,6 +3,7 @@ import { RenderBuilderContent } from "../../components/builder";
 
 // Builder Public API Key set in .env file
 builder.canTrack = false;
+//window.builderNoTrack = false
 builder.init(process.env.NEXT_PUBLIC_BUILDER_API_KEY!);
 
 
