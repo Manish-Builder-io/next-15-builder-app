@@ -19,6 +19,28 @@ Builder.registerComponent(Counter, {
   ],
 });
 
+Builder.registerComponent("NextImage", {
+  name: "NextImage",
+  inputs: [
+    {
+      name: "attributes",
+      type: "list",
+      subFields: [
+        {
+          name: "arrtibuteName",
+          type: "string",
+          required: true,
+        },
+        {
+          name: "arrtibuteValue",
+          type: "string",
+          required: true,
+        },
+      ],
+    },
+  ],
+});
+
 Builder.registerComponent(CallOut, {
   name: "CallOut",
   inputs: [
