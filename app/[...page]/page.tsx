@@ -2,7 +2,7 @@ import { builder } from "@builder.io/sdk";
 import { RenderBuilderContent } from "../../components/builder";
 
 // Disable tracking 
-builder.canTrack = false;
+builder.canTrack = true;
 
 
 // Builder Public API Key set in .env file
@@ -27,6 +27,7 @@ export default async function Page(props: PageProps) {
         urlPath: urlPath,
         options: { enrich: true },
         enrich: true,
+        users: ['admin']
       },
     })
     // Convert the result to a promise
