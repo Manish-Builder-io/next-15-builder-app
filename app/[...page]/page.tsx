@@ -27,7 +27,7 @@ export default async function Page(props: PageProps) {
         urlPath: urlPath,
         options: { enrich: true },
         enrich: true,
-        users: ['admin']
+        users: ['admin', 'designers']
       },
     })
     // Convert the result to a promise
